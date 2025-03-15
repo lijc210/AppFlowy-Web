@@ -25,6 +25,7 @@ export function Duplicate () {
 
   return (
     <>
+      {/* 使用此模版
       {isMobile ? (
         <Tooltip title={t('publish.saveThisPage')}>
           <IconButton
@@ -42,7 +43,7 @@ export function Duplicate () {
         color={'primary'}
       >
         {t('publish.saveThisPage')}
-      </Button>}
+      </Button>} */}
 
       <LoginModal
         redirectTo={url}

@@ -78,6 +78,7 @@ function LoginProvider({ redirectTo }: { redirectTo: string }) {
 
   return (
     <div className={'flex w-full flex-col items-center justify-center gap-[10px]'}>
+      {/* 谷歌登录等
       {options.slice(0, 2).map(renderOption)}
       {!expand && <Button
         color={'inherit'}
@@ -86,7 +87,7 @@ function LoginProvider({ redirectTo }: { redirectTo: string }) {
         className={'text-sm w-full flex gap-2 items-center hover:bg-transparent font-medium text-fill-default'}
       >
         {t('web.moreOptions')}
-      </Button>}
+      </Button>} */}
 
       <Collapse
         className={'w-full'}

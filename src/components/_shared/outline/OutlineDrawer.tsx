@@ -54,6 +54,7 @@ export function OutlineDrawer({ onScroll, header, variant, open, width, onClose,
       <AFScroller overflowXHidden onScroll={e => {
         onScroll?.((e.target as HTMLDivElement).scrollTop);
       }} className={'flex h-full relative min-h-full w-full flex-col'}>
+        {/* logo部分
         <div
           onMouseEnter={() => setHovered(true)}
           onMouseLeave={() => setHovered(false)}
@@ -89,7 +90,7 @@ export function OutlineDrawer({ onScroll, header, variant, open, width, onClose,
             </IconButton>
           </Tooltip>}
 
-        </div>
+        </div> */}
         <div className={'flex h-fit flex-1 flex-col'}>
           {children}
         </div>

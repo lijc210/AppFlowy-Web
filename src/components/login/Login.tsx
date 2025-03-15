@@ -18,14 +18,14 @@ export function Login({ redirectTo }: { redirectTo: string }) {
         className={'flex w-full cursor-pointer flex-col items-center justify-center gap-[14px]'}
       >
         <Logo className={'h-10 w-10'} />
-        <div className={'text-[24px] font-semibold max-sm:text-[20px]'}>{t('welcomeTo')} AppFlowy</div>
+        <div className={'text-[24px] font-semibold max-sm:text-[20px]'}>{t('welcomeTo')} 此在博客</div>
       </div>
       <MagicLink redirectTo={redirectTo} />
-      <div className={'flex w-full items-center justify-center gap-2 text-text-caption'}>
+      {/* <div className={'flex w-full items-center justify-center gap-2 text-text-caption'}>
         <Divider className={'flex-1 border-line-divider'} />
         {t('web.or')}
         <Divider className={'flex-1 border-line-divider'} />
-      </div>
+      </div> */}
       <LoginProvider redirectTo={redirectTo} />
       <div
         className={
