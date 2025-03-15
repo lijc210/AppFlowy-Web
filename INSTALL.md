@@ -1,6 +1,6 @@
 # docker
 
-docker build -t appflowy_web
+docker build -t appflowy_web .
 
 docker buildx build --platform linux/amd64 -t appflowy_web .
 
