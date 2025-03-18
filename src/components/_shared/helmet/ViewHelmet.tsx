@@ -66,7 +66,8 @@ function ViewHelmet ({
   if (!name) return null;
   return (
     <Helmet>
-      <title>{name} | AppFlowy</title>
+      {/* 自定义网站title */}
+      <title>{name} | 此在博客</title>
     </Helmet>
   );
 }
